@@ -1,21 +1,32 @@
 import Link from "next/link";
+import { useEffect } from "react";
 
 export default function Navbar() {
   return (
     <nav className="bg-[#0B0B0B] border-b border-[#0F766E]/40 px-6 py-4 flex justify-between items-center">
-      <span className="text-xl font-bold text-red-600">
-        E-Social
-      </span>
-
+      
+{/* LEFT — LOGO */}
+        <div className="flex items-center">
+          <Link href="/" className="flex items-center gap-2">
+            <img
+              src="/logo-social.png"
+              alt="EdenKingDom Social"
+              className="h-8 w-auto"
+            />
+            <span className="text-sm font-semibold text-red-600">
+               E-Social
+            </span>
+          </Link>
+        </div>
       <div className="flex gap-6 text-sm">
         {[
           ["Home", "/"],
+          ["S", "/social"],
           ["Doar", "/donate"],
           ["Transparência", "/dashboard"],
           ["E-Care", "/care"],
-          ["GeriCare", "/gericare"],
+          ["Geriatria", "/gericare"],
           ["Educação", "/education"],
-          ["Socialização", "/social"],
         ].map(([label, href]) => (
           <Link
             key={href}

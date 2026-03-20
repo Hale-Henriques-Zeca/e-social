@@ -1,6 +1,10 @@
 import Link from "next/link";
 import ESocialDivisionCards from "@/components/ESocialDivisionCards";
 import EEDCard from "@/components/EEDCard";
+import HeroSocial from "@/components/social/HeroSocial";
+import HeroButtons from "@/components/HeroButtons";
+import OfficialAnnouncement from "@/components/OfficialAnnouncement";
+import ESocialNowSection from "@/components/ESocialNowSection";
 
 
 export default function Home() {
@@ -16,6 +20,15 @@ export default function Home() {
 
       {/* CONTEÚDO */}
       <div className="relative z-10">
+
+ <section className="max-w-3xl mx-auto w-full">
+
+  <HeroSocial />
+  </section>
+
+<HeroButtons />
+
+<OfficialAnnouncement />
 
         {/* HERO CINEMATOGRÁFICO */}
         <section className="min-h-screen flex items-center px-8 max-w-7xl mx-auto">
@@ -49,6 +62,8 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+<ESocialNowSection /> 
 
         {/* MISSÃO / VALORES */}
         <section className="py-32 px-8 max-w-7xl mx-auto">
