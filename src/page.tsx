@@ -1,7 +1,4 @@
 import Link from "next/link";
-import ESocialDivisionCards from "@/components/ESocialDivisionCards";
-import EEDCard from "@/components/EEDCard";
-
 
 export default function Home() {
   return (
@@ -82,16 +79,29 @@ export default function Home() {
 
         {/* DIVISÕES */}
         <section className="py-32 px-8 max-w-7xl mx-auto">
-  <h2 className="text-4xl font-semibold mb-16">
-    Estrutura Institucional E-Social
-  </h2>
+          <h2 className="text-4xl font-semibold mb-16">
+            Estrutura Institucional E-Social
+          </h2>
 
-  <ESocialDivisionCards />
-
-  
-</section>
-
-
+          <div className="grid md:grid-cols-3 gap-10">
+            {[
+              ["E-Hope", "Orfanato & desenvolvimento infantil"],
+              ["E-Rise", "Reintegração social e produtiva"],
+              ["E-Solidarity", "Ajuda humanitária global"],
+              ["Educação EKD", "Literacy, Commercial & Technical"],
+              ["E-Care", "Saúde mental, aconselhamento e apoio"],
+              ["E-GeriCare", "Vida assistida com dignidade"],
+            ].map(([title, desc]) => (
+              <div
+                key={title}
+                className="bg-[#2A2A2A]/60 backdrop-blur border border-gray-700 p-6 rounded-xl hover:border-red-600 transition"
+              >
+                <h4 className="text-red-500 text-xl mb-2">{title}</h4>
+                <p className="text-gray-300">{desc}</p>
+              </div>
+            ))}
+          </div>
+        </section>
 
         {/* ON-CHAIN */}
         <section className="py-32 px-8 max-w-5xl mx-auto text-center">
@@ -112,18 +122,6 @@ export default function Home() {
           </Link>
         </section>
 
-<div className="mt-16">
-  <h2 className="text-3xl font-semibold mb-8 text-teal-400 text-center">
-    Empreendedorismo & Inovação
-  </h2>
-
-  <div className="grid md:grid-cols-3 gap-10">
-  <div className="md:col-start-2">
-    <EEDCard />
-  </div>
-</div>
-</div>
-
         {/* FRASE FINAL */}
         <section className="py-40 text-center px-8">
           <p className="text-gray-400 text-lg max-w-3xl mx-auto mb-6">
@@ -135,21 +133,17 @@ export default function Home() {
         Socialização EdenKingDom (S)
       </h1>
 
-     <p className="text-gray-400 text-lg max-w-3xl mx-auto mb-6">
+      <p className="text-gray-300 max-w-3xl">
         Rede social institucional.  
         Partilha, comunicação, serviços profissionais e impacto humano,
         tudo integrado ao ecossistema EdenKingDom.
       </p>
-
           <Link
-        href="/social"
-        className="block text-center w-full py-3 rounded-xl font-semibold
-        bg-gradient-to-r from-[#B11226] to-[#0F766E]
-        text-white hover:brightness-110 transition"
-      >
-        Aceder à Social (S)
-      </Link>
-
+            href="/social"
+            className="text-teal-400 underline text-lg"
+          >
+            Aceder à S
+          </Link>
         </section>
 
       </div>
