@@ -102,34 +102,39 @@ export default function OfficialAnnouncement() {
               <p>
                 Os primeiros esforços serão direcionados para Moçambique,
                 país de origem do nosso líder{" "}
-                <span className="text-white font-semibold">Hale Zeca</span>.
+                <span className="text-white font-semibold">Hale Zeca</span>, reconhecido pelo seu papel fundamental na expansão e propagação internacional do projeto E-Coin.
               </p>
 
               <p className="mt-2">
-                Diante dos desafios como{" "}
+               Diante dos desafios enfrentados pela população do seu país, incluindo{" "}
                 <span className="text-red-400 font-semibold">
                   inundações severas e ciclones devastadores
                 </span>,
-                a EdenKingDom atuará diretamente no apoio às comunidades afetadas,
-                promovendo assistência emergencial e reconstrução.
+                a EdenKingDom atuará diretamente no apoio às comunidades afetadas, promovendo assistência emergencial, reconstrução e suporte contínuo.
               </p>
 
             </div>
 
             {/* VISÃO */}
-            <div className="border-t border-gray-700 pt-6">
+<div className="border-t border-gray-700 pt-6">
 
-              <h3 className="text-blue-400 font-semibold mb-2">
-                🚀 Visão de Futuro
-              </h3>
+  <h3 className="text-blue-400 font-semibold mb-2">
+    🚀 Visão de Futuro
+  </h3>
 
-              <p>
-                Este é apenas o início. A EdenKingDom expandirá suas ações
-                humanitárias globalmente, levando esperança, dignidade e
-                desenvolvimento sustentável às populações vulneráveis.
+  <p>
+    Este é apenas o começo. A EdenKingDom expandirá as suas ações humanitárias a nível global, levando esperança, dignidade e desenvolvimento sustentável às populações mais vulneráveis.
+
+    Valorizamos profundamente cada líder de comunidade que dedica o seu tempo e esforço na promoção dos nossos produtos, marcas e serviços. São vocês que tornam esta missão possível.
+
+    No futuro, os líderes mais comprometidos terão a oportunidade de ver a EdenKingDom atuar diretamente nos seus países, respondendo a necessidades reais com intervenções rápidas, estruturadas e impactantes.
+
+    A sua dedicação de hoje constrói o amanhã da sua comunidade. <p className="mt-3 text-teal-400 font-semibold">
+                 EdenKingDom — juntos por um mundo mais justo.
               </p>
+  </p>
 
-            </div>
+</div>
 
             {/* AGRADECIMENTO */}
             <div className="border-t border-gray-700 pt-6">

@@ -100,6 +100,31 @@ export default function Home() {
         </div>
       
 
+
+{/* SOBRE A E-SOCIAL */}
+<div className="text-center mt-6">
+  <a
+    href="/about-social"
+    className="inline-flex items-center gap-3 bg-[#B11226] hover:bg-[#8E0E1E] text-white font-semibold py-3 px-8 rounded-xl transition shadow-[0_0_20px_rgba(177,18,38,0.4)] group"
+  >
+    <span className="text-lg group-hover:scale-110 transition">
+      🏠
+    </span>
+
+    <span className="tracking-wide">
+      Sobre a E-Social
+    </span>
+
+    <span className="text-xs opacity-70 group-hover:translate-x-1 transition">
+      →
+    </span>
+  </a>
+
+  <p className="text-gray-500 text-xs mt-2">
+    Conheça a missão, estrutura e impacto da E-Social
+  </p>
+</div>
+
 {/* SEPARADOR*/}
 <div className="relative z-10 mt-14 mb-10 flex items-center gap-4">
   <div className="h-px flex-1 bg-gradient-to-r from-transparent via-[#B11226]/40 to-transparent" />
@@ -108,7 +133,6 @@ export default function Home() {
   </span>
   <div className="h-px flex-1 bg-gradient-to-r from-transparent via-[#B11226]/40 to-transparent" />
 </div>
-
 <OfficialAnnouncement />
 
 

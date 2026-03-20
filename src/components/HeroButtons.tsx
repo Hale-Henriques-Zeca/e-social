@@ -74,7 +74,7 @@ export default function HeroButtons() {
       title: "E-Farm+",
       desc:
         "Divisão agroindustrial oficial com produção integrada\n" +
-        "Geracao de trabalho interno na EdenKingDom.\n" +
+        "Geração de trabalho interno na EdenKingDom.\n" +
         "Trabalho ocupacional para: E-Hope, E-Rise e Praticas para EdenKingDom Social Schools (ESS).",
       href: "https://efarm.edenkingdom",
       icon: "🌾",
