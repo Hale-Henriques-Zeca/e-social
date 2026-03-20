@@ -6,7 +6,7 @@ export default function SocialPage() {
   const [tab, setTab] = useState("feed");
 
   return (
-    <div className="min-h-screen flex">
+    <div className="min-h-screen flex flex-col md:flex-row">
 
       {/* SIDEBAR */}
       <aside className="w-64 bg-[#0B0B0B] border-r border-gray-800 p-6 hidden md:block">
@@ -41,7 +41,7 @@ export default function SocialPage() {
       </aside>
 
       {/* MAIN */}
-      <main className="flex-1 p-6 max-w-4xl mx-auto">
+      <main className="flex-1 p-4 md:p-6 w-full max-w-4xl mx-auto">
 
         {/* FEED */}
         {tab === "feed" && (

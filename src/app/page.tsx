@@ -31,7 +31,7 @@ export default function Home() {
 <OfficialAnnouncement />
 
         {/* HERO CINEMATOGRÁFICO */}
-        <section className="min-h-screen flex items-center px-8 max-w-7xl mx-auto">
+       <section className="min-h-screen flex items-center px-4 md:px-8 max-w-7xl mx-auto">
           <div className="max-w-3xl">
             <h1 className="text-6xl font-bold text-red-600 mb-8 leading-tight">
               E-Social

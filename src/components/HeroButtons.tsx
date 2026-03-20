@@ -7,7 +7,8 @@ import {
   FaBalanceScale,
   FaGlobe,
 } from "react-icons/fa";
-import { HeartHandshake } from "lucide-react";
+import { FaBullhorn } from "react-icons/fa";
+import { GiChicken } from "react-icons/gi";
 
 export default function HeroButtons() {
 
@@ -17,7 +18,7 @@ export default function HeroButtons() {
 
   const cards = [
     {
-      title: "Acionistas & Participação",
+      title: "E-Share • Acionistas & Participação",
       desc:
         "Política oficial de participação pública.\n" +
         "Modelo Buy Your Seat.\n" +
@@ -30,7 +31,7 @@ export default function HeroButtons() {
     },
 
     {
-      title: "Estrutura Jurídica",
+      title: "E-LAw • Estrutura Jurídica",
       desc:
         "Base legal e organizacional da EdenKingDom.\n" +
         "Governança global.\n" +
@@ -57,7 +58,7 @@ export default function HeroButtons() {
     },
 
     {
-      title: "E-Marketing",
+      title: "E-Marketing • Promoção de Marcas, Produtos e serviços da EdenKingDom",
       desc:
         "Marketing institucional global.\n" +
         "Branding e campanhas.\n" +

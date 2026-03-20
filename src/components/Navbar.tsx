@@ -18,7 +18,7 @@ export default function Navbar() {
             </span>
           </Link>
         </div>
-      <div className="flex gap-6 text-sm">
+      <div className="hidden md:flex gap-6 text-sm">
         {[
           ["Home", "/"],
           ["S", "/social"],
@@ -37,6 +37,9 @@ export default function Navbar() {
           </Link>
         ))}
       </div>
+      <div className="md:hidden">
+  {/* menu simples ou botão hamburger */}
+</div>
     </nav>
   );
 }
