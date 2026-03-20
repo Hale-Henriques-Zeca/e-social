@@ -24,8 +24,8 @@ export default function HeroButtons() {
         "Modelo Buy Your Seat.\n" +
         "Sistema transparente e auditável.",
       href: "https://eshare.edenkingdom.org",
-      icon: <FaChartLine />,
-      gradient: "from-cyan-400 via-cyan-300 to-cyan-400",
+      icon: "📊",
+      gradient: "from-[#708238] via-[#708238] to-[#708238]",
       glow: "shadow-[0_0_25px_rgba(34,211,238,0.5)]",
       iconColor: "text-cyan-400",
     },
@@ -37,8 +37,8 @@ export default function HeroButtons() {
         "Governança global.\n" +
         "Estrutura institucional sólida.",
       href: "https://elaw.edenkingdom.org",
-      icon: <FaBalanceScale />,
-      gradient: "from-purple-500 via-purple-400 to-purple-500",
+      icon: "⚖️",
+      gradient: "from-[#9ca3af] via-[#9ca3af] to-[#9ca3af]",
       glow: "shadow-[0_0_25px_rgba(168,85,247,0.5)]",
       iconColor: "text-purple-400",
     },
@@ -65,22 +65,22 @@ export default function HeroButtons() {
         "Expansão estratégica.",
       href: "https://emarketing.edenkingdom.org",
       icon: "📢",
-      gradient: goldGradient,
+      gradient: "from-pink-500 via-pink-400 to-pink-500",
       glow: goldGlow,
       iconColor: goldIcon,
     },
 
     {
-      title: "Organização Oficial",
+      title: "E-Farm+",
       desc:
-        "Manifesto, visão e missão.\n" +
-        "Infraestrutura global EdenKingDom.\n" +
-        "Portal institucional.",
-      href: "https://edenkingdom.org",
-      icon: <FaGlobe />,
-      gradient: "from-blue-500 via-blue-400 to-blue-500",
+        "Divisão agroindustrial oficial com produção integrada\n" +
+        "Geracao de trabalho interno na EdenKingDom.\n" +
+        "Trabalho ocupacional para: E-Hope, E-Rise e Praticas para EdenKingDom Social Schools (ESS).",
+      href: "https://efarm.edenkingdom",
+      icon: "🌾",
+      gradient: "from-green-500 via-green-400 to-green-500",
       glow: "shadow-[0_0_25px_rgba(59,130,246,0.5)]",
-      iconColor: "text-blue-400",
+      iconColor: "text-[#ffae00]",
     },
   ];
 

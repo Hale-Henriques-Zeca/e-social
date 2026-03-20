@@ -1,6 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { FaTelegramPlane, FaTwitter, FaDiscord, FaTelegram, FaWhatsapp } from "react-icons/fa";
+import { BsStars } from "react-icons/bs";
 
 export default function OfficialAnnouncement() {
   return (
@@ -157,7 +159,68 @@ export default function OfficialAnnouncement() {
           </div>
 
         </motion.div>
-      </div>
+     
+      <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1, delay: 0.4 }}
+            className="mt-12 flex flex-col items-center gap-4 text-red-500"
+          >
+            {/* TEXTO */}
+            <p className="text-sm text-gray-400">
+              Conecte-se à comunidade E-Social
+            </p>
+      
+            {/* ICONES */}
+            <div className="flex justify-center gap-6 text-2xl">
+      
+              {/* TELEGRAM GRUPO */}
+              <a
+                href="https://t.me/+Y828rPGId603Y2Jk"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-red-400 transition hover:scale-110"
+              >
+                <FaTelegramPlane />
+              </a>
+      
+              {/* TELEGRAM CANAL */}
+              <a
+                href="https://t.me/esocial2025"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-red-400 transition hover:scale-110"
+              >
+                <FaTelegram />
+              </a>
+      
+              {/* TWITTER */}
+              <a
+                href="https://x.com/CoinE28810"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-red-400 transition hover:scale-110"
+              >
+                <FaTwitter />
+              </a>
+      
+              {/* WHATSAPP */}
+              <a
+                href="https://chat.whatsapp.com/G1F6USX5NrrLKikm7yiXXQ"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-red-400 transition hover:scale-110"
+              >
+                <FaWhatsapp />
+              </a>
+            </div>
+      
+            {/* EFEITO VISUAL */}
+            <BsStars className="text-3xl mt-4 animate-pulse text-red-500" />
+      
+          </motion.div>
+           </div>
     </section>
+    
   );
 }

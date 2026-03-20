@@ -41,7 +41,7 @@ export default function SocialPage() {
       </aside>
 
       {/* MAIN */}
-      <main className="flex-1 p-4 md:p-6 w-full max-w-4xl mx-auto">
+     <main className="flex-1 p-4 md:p-6 w-full max-w-4xl mx-auto pb-24">
 
         {/* FEED */}
         {tab === "feed" && (
@@ -149,7 +149,30 @@ export default function SocialPage() {
         )}
 
       </main>
+{/* MOBILE NAV */}
+<div className="fixed bottom-0 left-0 w-full bg-[#0B0B0B] border-t border-gray-800 flex justify-around items-center py-3 md:hidden z-50">
 
+  <button onClick={() => setTab("feed")} className="text-gray-400 text-xs flex flex-col items-center">
+    📰
+    <span>Feed</span>
+  </button>
+
+  <button onClick={() => setTab("chat")} className="text-gray-400 text-xs flex flex-col items-center">
+    💬
+    <span>Chat</span>
+  </button>
+
+  <button onClick={() => setTab("live")} className="text-gray-400 text-xs flex flex-col items-center">
+    🎥
+    <span>Live</span>
+  </button>
+
+  <button onClick={() => setTab("profile")} className="text-gray-400 text-xs flex flex-col items-center">
+    👤
+    <span>Perfil</span>
+  </button>
+
+</div>
     </div>
   );
 }

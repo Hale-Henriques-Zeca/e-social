@@ -1,4 +1,9 @@
+"use client"
+
+
 import Link from "next/link";
+import { useState } from "react";
+import { motion } from "framer-motion";
 import ESocialDivisionCards from "@/components/ESocialDivisionCards";
 import EEDCard from "@/components/EEDCard";
 import HeroSocial from "@/components/social/HeroSocial";
@@ -8,6 +13,7 @@ import ESocialNowSection from "@/components/ESocialNowSection";
 
 
 export default function Home() {
+  const [showModal, setShowModal] = useState(false);
   return (
     <div className="relative min-h-screen overflow-hidden bg-black text-gray-200">
 
@@ -28,7 +34,83 @@ export default function Home() {
 
 <HeroButtons />
 
+
+{/* Manifesto Official da EdenKingDom Corporation / Modal */}
+      <div className="text-center mt-16">
+        <button
+          onClick={() => setShowModal(true)}
+          className="bg-gradient-to-r from-[#00FF9C] to-[#00C3FF] text-black font-bold py-3 px-10 rounded-full hover:opacity-90 transition"
+        >
+          ⚖️ Manifesto Official da EdenKingDom Corporation
+        </button>
+      </div>
+
+      {showModal && (
+        <div
+          onClick={() => setShowModal(false)}
+          className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50"
+        >
+          <div
+            onClick={(e) => e.stopPropagation()}
+            className="bg-[#0a0a0a]/90 border border-[#00FF9C]/30 rounded-2xl p-8 max-w-lg text-center shadow-2xl"
+          >
+            <h3 className="text-2xl font-semibold text-[#00FF9C] mb-4">
+              ⚖️ Manifesto Official da EdenKingDom Corporation
+            </h3>
+            <p className="text-gray-300 mb-6 text-sm leading-relaxed">
+  A EdenKingDom Corporation é uma entidade global, independente e multissetorial,
+  regida por princípios universais de legalidade, ética, sustentabilidade e
+  soberania institucional. Não competimos por especulação nem por preços
+  artificiais: operamos com excelência técnica, ciência aplicada e responsabilidade
+  social real.
+  <br /><br />
+  Atuamos acima de ideologias políticas, religiosas ou interesses individuais.
+  Nossa estrutura responde exclusivamente ao Conselho Central, preservando a
+  integridade, a continuidade e a inviolabilidade corporativa em todas as
+  jurisdições onde operamos.
+  <br /><br />
+  A participação pública ocorre de forma inclusiva e transparente através de
+  modelos sem direito a voto <span className="text-[#D4AF37] font-semibold">Buy Your Seat</span> na sessão dos acionistas, assegurando prosperidade compartilhada sem
+  interferência política interna. Servimos à vida, à verdade e ao progresso humano
+  sustentável.
+</p>
+
+            <a
+            href="https://www.edenkingdom.org/whitepaper"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-gradient-to-r from-[#D4AF37] to-[#f5d97e] text-black font-bold py-3 px-8 rounded-full hover:opacity-90 transition shadow-lg"
+          >
+            📜 Visite o whitepaper da EdenKingDom Corporation
+          </a>
+          </div>
+        </div>
+      )}
+          
+        {/* Link para o site oficial */}
+        <div className="text-center mt-8">
+          <a
+            href="https://edenkingdom.org"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-gradient-to-r from-[#D4AF37] to-[#f5d97e] text-black font-bold py-3 px-8 rounded-full hover:opacity-90 transition shadow-lg"
+          >
+            🌐 Visite a EdenKingDom Corporation Official
+          </a>
+        </div>
+      
+
+{/* SEPARADOR*/}
+<div className="relative z-10 mt-14 mb-10 flex items-center gap-4">
+  <div className="h-px flex-1 bg-gradient-to-r from-transparent via-[#B11226]/40 to-transparent" />
+  <span className="text-[11px] sm:text-xs uppercase tracking-[0.35em] text-[#0F766E]/80">
+    EdenKingDom Social (E-Social) humanitarian division
+  </span>
+  <div className="h-px flex-1 bg-gradient-to-r from-transparent via-[#B11226]/40 to-transparent" />
+</div>
+
 <OfficialAnnouncement />
+
 
         {/* HERO CINEMATOGRÁFICO */}
        <section className="min-h-screen flex items-center px-4 md:px-8 max-w-7xl mx-auto">
