@@ -15,7 +15,7 @@ const categories = [
 const mockNews = [
   {
     id: 1,
-    title: "Plataforma de doações E-Social lançada oficialmente",
+    title: "Plataforma de doações eSocial lançada oficialmente",
     category: "DOAÇÕES",
     date: "Mar 2026",
   },
@@ -39,7 +39,7 @@ const mockNews = [
   },
   {
     id: 5,
-    title: "Expansão global da E-Social prevista para novas regiões",
+    title: "Expansão global da eSocial prevista para novas regiões",
     category: "GLOBAL",
     date: "2026",
   },
@@ -91,7 +91,7 @@ export default function ESocialNowSection() {
             transition={{ duration: 0.6 }}
             className="text-4xl md:text-5xl font-bold"
           >
-            E-Social <span className="text-red-600">Agora</span>
+            eSocial <span className="text-red-600">Agora</span>
           </motion.h2>
 
           <p className="text-gray-400 mt-2 text-base">

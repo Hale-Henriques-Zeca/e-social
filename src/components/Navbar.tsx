@@ -18,7 +18,7 @@ export default function Navbar() {
             className="h-8 w-auto"
           />
           <span className="text-sm font-semibold text-red-600 whitespace-nowrap">
-            E-Social
+            eSocial
           </span>
         </Link>
       </div>

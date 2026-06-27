@@ -37,7 +37,7 @@ export default function Footer() {
           viewport={{ once: true }}
         >
           <h2 className="text-[#B11226] font-semibold text-lg tracking-widest">
-            E-SOCIAL • EDENKINGDOM
+            eSOCIAL • EDENKINGDOM
           </h2>
 
           <p className="text-sm text-gray-400 mt-3 leading-relaxed">
@@ -58,7 +58,7 @@ export default function Footer() {
           </h3>
 
           <ul className="space-y-2 text-sm text-gray-400">
-            <li className="hover:text-white cursor-pointer">Sobre a E-Social</li>
+            <li className="hover:text-white cursor-pointer">Sobre a eSocial</li>
             <li className="hover:text-white cursor-pointer">Missão & Valores</li>
             <li className="hover:text-white cursor-pointer">Transparência</li>
             <li className="hover:text-white cursor-pointer">Governança</li>
@@ -79,11 +79,11 @@ export default function Footer() {
 
     {[
       ["🌍 Home", "/"],
-      ["🏥 E-Care", "/care"],
-      ["👴 Geriatria", "/gericare"],
-      ["📚 Educação", "/education"],
-      ["💰 Doar Agora", "/donate"],
-      ["📊 Transparência", "/dashboard"],
+      ["🏥 eCare", "/ecare"],
+      ["👴 Geriatria", "/egeriatric"],
+      ["📚 Educação", "/eeducation"],
+      ["💰 Doar Agora", "/edonate"],
+      ["📊 Transparência", "/edashboard"],
       ["🌐 Social (S)", "/social"],
     ].map(([label, href]) => (
       <li key={href}>
@@ -142,7 +142,7 @@ export default function Footer() {
               target="_blank"
               className="bg-[#0F766E]/10 border border-[#B11226]/40 rounded-full px-4 py-2 text-sm text-[#0F766E] hover:bg-[#0F766E]/20 hover:shadow-[0_0_10px_#0F766Eaa] transition-all"
             >
-              🌐 Portal E-Social
+              🌐 Portal eSocial
             </a>
 
             <a
@@ -150,7 +150,7 @@ export default function Footer() {
               target="_blank"
               className="bg-[#0F766E]/10 border border-[#0F766E]/40 rounded-full px-4 py-2 text-sm text-[#0F766E] hover:bg-[#0F766E]/20 hover:shadow-[0_0_10px_#0F766Eaa] transition-all"
             >
-              🌐 Portal EdenKingDom Corporation
+              🌐 Portal do Grupo EdenKingDom 
             </a>
 
           </div>
@@ -163,7 +163,7 @@ export default function Footer() {
           viewport={{ once: true }}
         >
           <h3 className="text-xl font-semibold text-[#B11226] mb-4">
-            Comunidade E-Social
+            Comunidade eSocial
           </h3>
 
           <div className="flex gap-4 text-3xl">
@@ -194,7 +194,7 @@ export default function Footer() {
           viewport={{ once: true }}
         >
           <h3 className="text-xl font-semibold text-[#0F766E] mb-4">
-            EdenKingDom Global
+            Grupo EdenKingDom Global
           </h3>
 
           <div className="flex gap-4 text-2xl">
@@ -230,8 +230,8 @@ export default function Footer() {
         viewport={{ once: true }}
         className="text-center mt-8 text-xs text-gray-500"
       >
-        Since © 2025 to {new Date().getFullYear()} EdenKingDom Corporation —  
-        E-Social (Humanitarian Division)
+        Since © 2025 to {new Date().getFullYear()} Grupo EdenKingDom —  
+        eSocial (Humanitarian Division)
       </motion.div>
 
     </footer>

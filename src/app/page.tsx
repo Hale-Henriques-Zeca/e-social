@@ -112,7 +112,7 @@ export default function Home() {
     </span>
 
     <span className="tracking-wide">
-      Sobre a E-Social
+      Sobre a eSocial
     </span>
 
     <span className="text-xs opacity-70 group-hover:translate-x-1 transition">
@@ -121,7 +121,7 @@ export default function Home() {
   </a>
 
   <p className="text-gray-500 text-xs mt-2">
-    Conheça a missão, estrutura e impacto da E-Social
+    Conheça a missão, estrutura e impacto da eSocial
   </p>
 </div>
 
@@ -129,7 +129,7 @@ export default function Home() {
 <div className="relative z-10 mt-14 mb-10 flex items-center gap-4">
   <div className="h-px flex-1 bg-gradient-to-r from-transparent via-[#B11226]/40 to-transparent" />
   <span className="text-[11px] sm:text-xs uppercase tracking-[0.35em] text-[#0F766E]/80">
-    EdenKingDom Social (E-Social) humanitarian division
+    EdenKingDom Social (eSocial) humanitarian division
   </span>
   <div className="h-px flex-1 bg-gradient-to-r from-transparent via-[#B11226]/40 to-transparent" />
 </div>
@@ -140,7 +140,7 @@ export default function Home() {
        <section className="min-h-screen flex items-center px-4 md:px-8 max-w-7xl mx-auto">
           <div className="max-w-3xl">
             <h1 className="text-6xl font-bold text-red-600 mb-8 leading-tight">
-              E-Social
+              eSocial
             </h1>
 
             <p className="text-2xl text-gray-300 mb-10">
@@ -153,14 +153,14 @@ export default function Home() {
 
             <div className="flex gap-6">
               <Link
-                href="/donate"
+                href="/edonate"
                 className="bg-red-600 px-8 py-4 rounded text-white font-semibold hover:bg-red-700 transition"
               >
                 Doar Agora
               </Link>
 
               <Link
-                href="/dashboard"
+                href="/edashboard"
                 className="border border-gray-600 px-8 py-4 rounded hover:bg-gray-900 transition"
               >
                 Transparência Pública
@@ -204,7 +204,7 @@ export default function Home() {
         {/* DIVISÕES */}
         <section className="py-32 px-8 max-w-7xl mx-auto">
   <h2 className="text-4xl font-semibold mb-16">
-    Estrutura Institucional E-Social
+    Estrutura Institucional eSocial
   </h2>
 
   <ESocialDivisionCards />
@@ -226,7 +226,7 @@ export default function Home() {
           </p>
 
           <Link
-            href="/dashboard"
+            href="/edashboard"
             className="text-red-500 underline text-lg"
           >
             Ver Dashboard Público
@@ -248,7 +248,7 @@ export default function Home() {
         {/* FRASE FINAL */}
         <section className="py-40 text-center px-8">
           <p className="text-gray-400 text-lg max-w-3xl mx-auto mb-6">
-            “E-Social é a expressão humana da EdenKingDom.
+            “A eSocial é a expressão humana da EdenKingDom.
             Onde tecnologia, transparência e responsabilidade social se encontram.”
           </p>
 

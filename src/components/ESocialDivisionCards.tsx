@@ -5,34 +5,34 @@ import Link from "next/link";
 
 const divisions = [
   {
-    name: "E-Hope",
+    name: "eHope",
     desc: "Orfanato & desenvolvimento infantil",
-    href: "/e-hope",
+    href: "/ehope",
   },
   {
-    name: "E-Rise",
+    name: "eRise",
     desc: "Reintegração social e produtiva",
-    href: "/e-rise",
+    href: "/erise",
   },
   {
-    name: "E-Solidarity",
+    name: "eSolidarity",
     desc: "Ajuda humanitária global",
-    href: "/e-solidarity",
+    href: "/esolidarity",
   },
   {
-    name: "Educação EKD",
+    name: "Educação Social",
     desc: "Literacy, Commercial & Technical",
-    href: "/education",
+    href: "/eeducation",
   },
   {
-    name: "E-Care",
+    name: "eCare",
     desc: "Saúde mental, aconselhamento e apoio",
-    href: "/care",
+    href: "/ecare",
   },
   {
-    name: "E-GeriCare",
+    name: "eGeriatric",
     desc: "Vida assistida com dignidade",
-    href: "/gericare",
+    href: "/egeriatric",
   },
 ];
 
